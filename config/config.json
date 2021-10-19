@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "a-1-serv-partner-report-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/a1ServPartnerReport/A1ServPartnerReportWebPart.js",
+          "manifest": "./src/webparts/a1ServPartnerReport/A1ServPartnerReportWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "A1ServPartnerReportWebPartStrings": "lib/webparts/a1ServPartnerReport/loc/{locale}.js"
+  }
+}

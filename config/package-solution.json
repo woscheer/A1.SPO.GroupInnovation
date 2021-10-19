@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "a-1-spo-groupinnovation-client-side-solution",
+    "id": "8871dc3e-d147-4f44-beab-54a4d2a571cd",
+    "version": "1.0.0.7",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/a-1-spo-groupinnovation.sppkg"
+  }
+}
